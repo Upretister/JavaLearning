@@ -4,7 +4,7 @@ public class LinkedList<T> {
 
     public Node<T> head;
     public Node<T> tail;
-    private int size;
+    public int size;
 
     public LinkedList(){
         this.head = null;

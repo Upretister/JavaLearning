@@ -2,8 +2,8 @@ package com.javalearning.collection.linkedlist.singlylinklist;
 
 public class Node<T> {
 
-    protected Node<T> next;
-    protected T data;
+    public Node<T> next;
+    public T data;
 
     public Node(T data, Node<T> next){
         this.data = data;
