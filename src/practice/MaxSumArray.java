@@ -17,6 +17,4 @@ public class MaxSumArray {
         }
         System.out.println(max_so_far);
     }
-
-
 }

@@ -84,7 +84,7 @@ public class BinaryTree<E extends Comparable<E>> {
                 currentNode = currentNode.getRight();
             }
         }
-        return null;
+        return currentNode;
     }
 
     public boolean delete(E item){
@@ -145,7 +145,8 @@ public class BinaryTree<E extends Comparable<E>> {
             currentNode.getParent().setLeft(newNode);
         }
     }
-    private class Node{
+
+  private class Node{
 
         private Node left;
         private Node right;
